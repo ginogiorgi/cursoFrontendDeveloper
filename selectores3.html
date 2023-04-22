@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color:salmon;
+        }
+        p:hover {
+            color:skyblue;
+        }
+        div p:nth-child(2) {
+            color:violet;
+        }
+        p::first-letter{
+            color:teal;
+        }
+        p::before {
+            content: "🎊"
+        }
+        p::after{
+            content: "🎁";
+        }
+        ::placeholder{
+            color: tomato;
+        }
+        :link{
+            color: green;
+        }
+        :visited{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Buenas</p>
+        <p>Buenas</p>
+        <p>Chupame las dos huevas</p>
+        <input type="text" placeholder="nombre">
+        <p><a href="https://es.symbolab.com/"> Cuentitas!</a></p>
+        <p><a href="https://www.google.com/search?q=calculadora+google%5C&rlz=1C1ALOY_esAR1048AR1048&oq=calculadora+google%5C&aqs=chrome..69i57j0i131i433i512j0i512l8.2787j0j7&sourceid=chrome&ie=UTF-8"> Mas cuentitas!</a></p>
+    </div>
+</body>
+</html>
